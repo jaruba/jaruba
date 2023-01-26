@@ -1,4 +1,4 @@
-### Hi there 👋
+I build streaming platforms and work with video technologies! Working at <a href="https://stremio.com/" class="green-links" target="_blank">Stremio</a> since 2015, promoted to Dev Lead in 2021
 
 <!--
 **jaruba/jaruba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
