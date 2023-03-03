@@ -1,4 +1,6 @@
-I build streaming platforms and work with video technologies! Working at <a href="https://stremio.com/" class="green-links" target="_blank">Stremio</a> since 2015, promoted to Dev Lead in 2021
+I build streaming platforms and work with video technologies! Dev Lead at <a href="https://stremio.com/" target="_blank">Stremio</a>, where I've been creating since 2015
+
+Side projects: <a href="https://powder.media/" target="_blank">Powder Tech</a>, <a href="https://ratingposterdb.com" target="_blank">Rating Poster Database</a>, <a href="https://torrent-track.app/" target="_blank">Torrent Track</a>
 
 <!--
 **jaruba/jaruba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

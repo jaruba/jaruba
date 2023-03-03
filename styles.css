@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+}
+img {
+	margin: 0;
+	padding: 0;
+}
+img#face {
+	width: 200px;
+	border-radius: 50%;
+	max-width: 100%;
+	border: 5px solid #f7f7f7;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 23px;
+	text-align: left;
+	margin-bottom: 0;
+	display: inline-block;
+}
+h2 {
+	font-size: 23px;
+	margin-bottom: 32px;
+	margin-top: 10px;
+}
+a {
+	text-decoration: none;
+	color: #467b88;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+div#content {
+	padding: 30px 15% 60px 15%;
+	color: rgba(0,0,0,0.8);
+}
+div.left {
+	display: inline-block;
+	max-width: 50%;
+	margin-right: 10px;
+	z-index: 1000;
+	position: relative;
+}
+div.right {
+	display: inline-block;
+	vertical-align: top;
+}
+div.tab {
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 15px;
+	border-radius: 6px;
+	vertical-align: top;
+	margin: 7px;
+	display: inline-block;
+	background-color: #fff;
+	text-align: left;
+}
+div#header {
+	overflow: visible;
+	position: relative;
+}
+div.tab-header {
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	padding-bottom: 7px;
+	margin-bottom: 5px;
+}
+span.tab-title {
+	font-weight: bold;
+	position: relative;
+	top: -6px;
+}
+img#github-logo {
+	max-width: 25px;
+	margin-right: 6px;
+}
+svg#github-star {
+	position: relative;
+	top: 6px;
+}
+svg#github-followers {
+	position: relative;
+	top: 6px;
+}
+svg#so-award {
+	margin-left: 1px;
+	margin-right: 3px;
+	position: relative;
+	top: 5px;
+}
+div.tab-holder {
+	padding: 20px;
+	background-color: rgba(0,0,0,0.03);
+	padding-left: 80px;
+	position: absolute;
+	left: 145px;
+	border-radius: 20px;
+	margin-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+	width: 563px;
+}
+div#footer div.tab-holder {
+    padding-left: 20px;
+    left: 0;
+    position: relative;
+    width: auto;
+    text-align: center;
+	margin-top: 32px;
+    display: none;
+}
+a.tab-link {
+	color: #000;
+	font-weight: normal;
+}
+a.tab-link:hover {
+	text-decoration: none;
+}
+.unselectable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.spacing {
+	line-height: 27px;
+}
+span.text-block {
+	background-color: rgba(0,0,0,0.03);
+	padding: 5px 7px;
+	border-radius: 3px;
+	position: relative;
+	top: -2px;
+}
+span.left-space {
+	margin-left: 10px;
+}
+div#head-title {
+	margin-bottom: 22px;
+}
+@media (max-width: 1125px) {
+	div#header div.tab-holder {
+		display: none;
+	}
+	div#footer div.tab-holder {
+		display: inline-block;
+		text-align: left;
+		width: auto;
+		background: none;
+		padding: 0;
+	}
+	div#footer div.tab-holder a.tab-link:nth-child(1) div.tab {
+		margin-left: 0;
+	}
+}
+@media (max-width: 825px) {
+	div#content {
+		padding: 30px 10% 60px 10%;
+	}
+}
+@media (max-width: 695px) {
+	div#footer div.tab-holder a.tab-link:nth-child(2) div.tab {
+		margin-left: 0;
+	}
+	div#footer div.tab-holder a.tab-link:nth-child(3) div.tab {
+		margin-left: 0;
+	}
+}
+@media (max-width: 677px) {
+	div#footer div.tab-holder {
+		width: 100%;
+	}
+	div#footer div.tab-holder div.tab {
+		margin-right: 0;
+		display: block;
+		margin-bottom: 20px;
+	}
+	div#header {
+		text-align: center;
+	}
+}
