@@ -1,4 +1,5 @@
 I build streaming platforms and work with video technologies! Dev Lead at <a href="https://stremio.com/" target="_blank">Stremio</a>, where I've been creating since 2015
+
 Side projects: <a href="https://powder.media/" target="_blank">Powder Tech</a>, <a href="https://ratingposterdb.com" target="_blank">Rating Poster Database</a>, <a href="https://torrent-track.app/" target="_blank">Torrent Track</a>
 
 <!--
