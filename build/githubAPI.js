@@ -1,6 +1,6 @@
 const needle = require('needle')
 
-const htmlPath = 'https://api.github.com/repos/jaruba/jaruba/contents/web/index.html'
+const htmlPath = 'https://api.github.com/repos/jaruba/jaruba/contents/index.html'
 
 const btoa = str => Buffer.from(str.toString(), 'binary').toString('base64')
 

@@ -41,11 +41,11 @@ async function build() {
 	// we push the changes to the github repository
 	// to trigger automated deployment of the website
 
-	// const githubResp = await saveFile(page, 'Automation: Update Data for Tabs')
+	const githubResp = await saveFile(page, 'Automation: Update Data for Tabs')
 
-	// if (!githubResp?.content?.sha) {
-	// 	throw(Error('Failed to write new index.html to GitHub API'))
-	// }
+	if (!githubResp?.content?.sha) {
+		throw(Error('Failed to write new index.html to GitHub API'))
+	}
 }
 
 build()
