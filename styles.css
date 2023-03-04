@@ -197,6 +197,9 @@ div#head-title {
 		margin-left: 0;
 		margin-right: 10px;
 	}
+	span.text-block {
+		top: 15px;
+	}
 	div#head-title {
 		margin-bottom: 40px;
 	}
