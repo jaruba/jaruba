@@ -7,19 +7,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      workingDirectory: ./builder
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        working-directory: builder
         with:
           node-version: 14
           cache: 'npm'
       - run: npm install
-        working-directory: builder
       - run: npm start
-        working-directory: builder
         env:
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
 
