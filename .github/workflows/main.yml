@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 14
           cache: 'npm'
-          working-directory: builder
+          cache-dependency-path: '**/package-lock.json'
       - run: npm install
         working-directory: builder
       - run: npm start
