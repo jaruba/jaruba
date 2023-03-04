@@ -1,4 +1,5 @@
 const { saveFile } = require('./githubAPI')
+const getAge = require('./age')
 
 const templates = {
 	tabs: require('./tab-template'),
@@ -37,6 +38,7 @@ async function build() {
 
 	const page = templates.page
 							.replaceAll('{tabs}', tabs)
+							.replaceAll('{age}', getAge())
 
 	// we push the changes to the github repository
 	// to trigger automated deployment of the website

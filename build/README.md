@@ -1,4 +1,4 @@
-There is a github action that triggers `./index.js` every week, which is responsible for updating the data for the [jaruba.dev](https://jaruba.dev) web page (more specifically the github / reddit / stackoverflow data).
+There is a github action that triggers `./index.js` every week, which is responsible for updating the data for the [jaruba.dev](https://jaruba.dev) web page (more specifically the github / reddit / stackoverflow data and age).
 
 The builder commits the `../web/index.html` file to the repo, which in turn triggers another github action that updates the static website.
 
