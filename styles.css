@@ -110,13 +110,13 @@ div.tab-holder {
 	width: 563px;
 }
 div#footer div.tab-holder {
-    padding-left: 20px;
-    left: 0;
-    position: relative;
-    width: auto;
-    text-align: center;
+	padding-left: 20px;
+	left: 0;
+	position: relative;
+	width: auto;
+	text-align: center;
 	margin-top: 32px;
-    display: none;
+	display: none;
 }
 a.tab-link {
 	color: #000;
@@ -187,5 +187,17 @@ div#head-title {
 	}
 	div#header {
 		text-align: center;
+	}
+}
+@media (max-width: 475px) {
+	h1 {
+		display: block;
+	}
+	span.left-space {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	div#head-title {
+		margin-bottom: 40px;
 	}
 }
