@@ -123,6 +123,7 @@ a.tab-link {
 	font-weight: normal;
 }
 a.tab-link:hover {
+	color: #467b88;
 	text-decoration: none;
 }
 .unselectable {
