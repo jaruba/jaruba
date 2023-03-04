@@ -1,0 +1,25 @@
+name: Website Update
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        working-directory: builder
+        with:
+          node-version: '14.x'
+          registry-url: 'https://npm.pkg.github.com'
+      - run: npm install
+        working-directory: builder
+      - run: npm start
+        working-directory: builder
+        env:
+          PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+
