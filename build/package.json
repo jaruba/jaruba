@@ -1,0 +1,13 @@
+{
+	"name": "jaruba-build-site",
+	"version": "0.0.1",
+	"description": "Builds website at jaruba.dev",
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"start": "node ./index.js"
+	},
+	"dependencies": {
+		"needle": "3.2.0"
+	}
+}
