@@ -2,7 +2,7 @@ name: Website Update
 
 on:
   schedule:
-    - cron: '30 15 * * *'
+    - cron: '*/10 * * * *'
 
 jobs:
   build:
