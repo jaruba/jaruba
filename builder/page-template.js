@@ -36,7 +36,7 @@ module.exports = `
 			<br/><br/>
 			How I would describe myself: full-stack developer, crisis handler, jack of all trades
 			<br/><br/>
-			Learn more about me: <a href="https://github.com/jaruba" target="_blank">GitHub</a> (my open source projects), <a href="https://www.reddit.com/user/jaruba_dev" target="_blank">Reddit</a> (tech support), <a href="https://stackoverflow.com/users/2769366/jaruba" target="_blank">StackOverflow</a> (knowledge sharing)
+			Learn more about me: <a href="https://github.com/jaruba" target="_blank">GitHub</a> (open source projects), <a href="https://www.reddit.com/user/jaruba_dev" target="_blank">Reddit</a> (tech support), <a href="https://stackoverflow.com/users/2769366/jaruba" target="_blank">StackOverflow</a> (knowledge sharing)
 			<br/><br/>
 			Reach me at: <a href="mailto:hi@jaruba.dev">hi@jaruba.dev</a>
 			<br/><br/>
