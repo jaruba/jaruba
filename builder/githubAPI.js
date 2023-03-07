@@ -23,7 +23,7 @@ async function saveFile(data, message) {
 	const meta = await getMeta()
 
 	if (!meta?.sha) {
-		throw Error('Failed to get SHA of activeKeys.json file from GH API')
+		throw Error('Failed to get SHA of index.html file from GH API')
 		return
 	}
 
