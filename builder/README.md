@@ -8,4 +8,4 @@ Notes:
 - Reddit karma is retrieved from the Reddit API
 - Reddit followers are **currently hardcoded**, as this data is not public, nor available in the API
 - StackOverflow reputation is retrieved from the StackExchange API
-- StackOverflow top overall percentage is **currently scraped** from the StackOverflow user page, this data is not available in the StackExchange API
+- StackOverflow top overall percentage is **currently hardcoded**, (can be seen on the StackOverflow [user page](https://stackoverflow.com/users/2769366/jaruba)), as this data is not available in the StackExchange API and we are avoiding web scraping
