@@ -22,7 +22,7 @@ async function saveFile(data, message) {
 
 	const meta = await getMeta()
 
-	if (!meta?.sha) {
+	if (!meta?.body?.sha) {
 		throw Error('Failed to get SHA of index.html file from GH API')
 		return
 	}
@@ -36,7 +36,7 @@ async function saveFile(data, message) {
 	    },
 	}
 
-	const body = { message, content, sha: meta.sha }
+	const body = { message, content, sha: meta.body.sha }
 
 	return needle('put', htmlPath, body, options)
 }
