@@ -8,7 +8,7 @@ function getMeta() {
 	const options = {
 		json: true,
 	    headers: {
-	    	'Authorization': `Bearer ${process.env.PUBLISH_SECRET}`,
+	    	'Authorization': `Bearer ${process.env.PUBLISH_TOKEN}`,
 	    	'Content-Type': 'application/json',
 	    	'User-Agent': 'RPDB-Worker-App',
 	    }
@@ -22,9 +22,6 @@ async function saveFile(data, message) {
 
 	const meta = await getMeta()
 
-	console.log('status', meta.statusCode)
-	console.log('body', meta.body)
-
 	if (!meta?.body?.sha) {
 		throw Error('Failed to get SHA of index.html file from GH API')
 		return
@@ -33,7 +30,7 @@ async function saveFile(data, message) {
 	const options = {
 		json: true,
 	    headers: {
-	    	'Authorization': `Bearer ${process.env.PUBLISH_SECRET}`,
+	    	'Authorization': `Bearer ${process.env.PUBLISH_TOKEN}`,
 	    	'Content-Type': 'application/json',
 	    	'User-Agent': 'RPDB-Worker-App',
 	    },
