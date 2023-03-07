@@ -22,6 +22,9 @@ async function saveFile(data, message) {
 
 	const meta = await getMeta()
 
+	console.log('status', meta.statusCode)
+	console.log('body', meta.body)
+
 	if (!meta?.body?.sha) {
 		throw Error('Failed to get SHA of index.html file from GH API')
 		return
