@@ -49,7 +49,7 @@ async function build() {
 
 	const githubResp = await saveFile(page, 'Automation: Update Data for Tabs')
 
-	if (!githubResp?.content?.sha) {
+	if (!githubResp?.body?.content?.sha) {
 		throw(Error('Failed to write new index.html to GitHub API'))
 	}
 }

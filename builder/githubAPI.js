@@ -10,7 +10,7 @@ function getMeta() {
 	    headers: {
 	    	'Authorization': `Bearer ${process.env.PUBLISH_TOKEN}`,
 	    	'Content-Type': 'application/json',
-	    	'User-Agent': 'RPDB-Worker-App',
+	    	'User-Agent': 'Personal-Website-App',
 	    }
 	};
 	return needle('get', htmlPath, options)
@@ -32,7 +32,7 @@ async function saveFile(data, message) {
 	    headers: {
 	    	'Authorization': `Bearer ${process.env.PUBLISH_TOKEN}`,
 	    	'Content-Type': 'application/json',
-	    	'User-Agent': 'RPDB-Worker-App',
+	    	'User-Agent': 'Personal-Website-App',
 	    },
 	}
 
