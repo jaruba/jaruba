@@ -12,6 +12,11 @@ async function getKarma() {
 module.exports = async function() {
 	const redditKarma = await getKarma()
 	return {
-		karma: redditKarma.toLocaleString()
+		karma: redditKarma.toLocaleString(),
+
+		// reddit followers cannot be seen publicly
+		// and the followers count cannot be retrieved
+		// from the API either, hardcoding it for now
+		followers: '76',
 	}
 }

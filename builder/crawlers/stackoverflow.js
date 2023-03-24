@@ -13,5 +13,9 @@ module.exports = async function() {
 	const soRep = await getReputation()
 	return {
 		reputation: soRep.toLocaleString(),
+
+		// we hardcode overall percent as we are
+		// avoiding web scraping with gh actions
+		overall: '33',
 	}
 }

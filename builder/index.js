@@ -23,15 +23,6 @@ async function build() {
 		throw(e)
 	}
 
-	// reddit followers cannot be seen publicly
-	// and the followers count cannot be retrieved
-	// from the API either, hardcoding it for now
-	data.reddit.followers = '73'
-
-	// we hardcode overall percent as we are
-	// avoiding web scraping with gh actions
-	data.stackoverflow.overall = '33'
-
 	const tabs = templates.tabs
 							.replaceAll('{github-stars}', data.github.stars)
 							.replaceAll('{github-followers}', data.github.followers)
