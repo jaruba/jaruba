@@ -29,7 +29,7 @@ module.exports = `
 			<span class="spacing">
 				Some tech I enjoy using:
 				<br/>
-				Node.js, React, QML, JS, CSS, HTML, FFmpeg, Docker, NGINX, Edge / Serverless Functions (Cloudflare Workers, KV, Durable Objects, Vercel), Photoshop, PHP, Python, SQL (SQLite, PostgreSQL, MySQL)
+				Node.js, React, QML, JS, CSS, HTML, FFmpeg, Docker, NGINX, Edge / Serverless Functions (Cloudflare Workers, KV, Durable Objects, Vercel), Photoshop, Python, PHP, SQL (SQLite, PostgreSQL)
 			</span>
 			<br/><br/>
 			How I would describe myself: full-stack developer, crisis handler, jack of all trades
