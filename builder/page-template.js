@@ -18,7 +18,7 @@ module.exports = `
 			</div>
 			<br/>
 			<div id="head-title">
-				<h1>Alexandru Branza</h1> <span class="text-block left-space">Age {age}</span> <span class="text-block left-space">Romania</span>
+				<h1>Alexandru Branza</h1> <span class="text-block left-space">Age {age}</span> <span class="text-block left-space">Europe</span>
 			</div>
 			I build streaming platforms and work with video technologies
 			<br/><br/>
