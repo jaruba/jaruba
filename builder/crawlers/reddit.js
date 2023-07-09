@@ -17,6 +17,6 @@ module.exports = async function() {
 		// reddit followers cannot be seen publicly
 		// and the followers count cannot be retrieved
 		// from the API either, hardcoding it for now
-		followers: '99',
+		followers: '107',
 	}
 }
