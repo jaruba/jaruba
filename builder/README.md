@@ -6,6 +6,6 @@ Notes:
 - GitHub stars are retrieved from the GitHub API
 - GitHub followers are retrieved from the GitHub API
 - Reddit karma is retrieved from the Reddit API
-- Reddit followers are **currently hardcoded**, as this data is not public, nor available in the API
+- Reddit followers are retrieved from the Reddit API
 - StackOverflow reputation is retrieved from the StackExchange API
 - StackOverflow top overall percentage is **currently hardcoded**, (can be seen on the StackOverflow [user page](https://stackoverflow.com/users/2769366/jaruba)), as this data is not available in the StackExchange API and we are avoiding web scraping
