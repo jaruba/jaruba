@@ -41,4 +41,4 @@ async function getRedditDetails() {
     }
 }
 
-module.exports = getRedditDetails()
+module.exports = getRedditDetails
