@@ -79,15 +79,15 @@ span.tab-title {
 	position: relative;
 	top: -6px;
 }
-img#github-logo {
+img.service-logo {
 	max-width: 25px;
 	margin-right: 6px;
 }
-svg#github-star {
+svg.star {
 	position: relative;
 	top: 6px;
 }
-svg#github-followers {
+svg.github-followers {
 	position: relative;
 	top: 6px;
 }
@@ -203,4 +203,37 @@ div#head-title {
 	div#head-title {
 		margin-bottom: 40px;
 	}
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #3d4148;
+    }
+    div#content {
+        color: white;
+    }
+    div.tab-holder {
+        background-color: rgba(0,0,0,0.13);
+    }
+    span.text-block {
+        background-color: rgba(0,0,0,0.13);
+    }
+    img#face {
+        border: 5px solid #36393F;
+    }
+    div.tab {
+        background-color: #434850;
+        color: white;
+    }
+    img.service-logo {
+        filter: invert(1);
+    }
+    svg.github-followers {
+        filter: invert(1);
+    }
+    svg#so-award {
+        filter: invert(1);
+    }
+    a {
+    	color: #5596a6;
+    }
 }
