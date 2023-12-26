@@ -206,22 +206,22 @@ div#head-title {
 }
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #3d4148;
+        background-color: #0D1116;
     }
     div#content {
         color: white;
     }
     div.tab-holder {
-        background-color: rgba(0,0,0,0.13);
+        background-color: #171B21;
     }
     span.text-block {
-        background-color: rgba(0,0,0,0.13);
+        background-color: #171B21;
     }
     img#face {
-        border: 5px solid #36393F;
+        border: 5px solid #171B21;
     }
     div.tab {
-        background-color: #434850;
+        background-color: #22262C;
         color: white;
     }
     img.service-logo {
@@ -234,6 +234,6 @@ div#head-title {
         filter: invert(1);
     }
     a {
-    	color: #5596a6;
+    	color: #4283EF;
     }
 }
